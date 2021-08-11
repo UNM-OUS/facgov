@@ -7,17 +7,17 @@
         "digraphcms/digraph-file-types": "dev-main",
         "digraphcms/digraph-project-core": "~1",
         "oomphinc/composer-installers-extender": "^1.1|^2",
-        "unmous/ous_digraph_module": "dev-master",
+        "unmous/ous_digraph_module": "dev-main",
         "unmous/ous_event_management": "dev-main"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://lobogit.unm.edu/ous/ous_digraph_module.git"
+            "url": "https://github.com/UNM-OUS/ous_digraph_module.git"
         },
         {
             "type": "vcs",
-            "url": "https://lobogit.unm.edu/ous/ous_event_management.git"
+            "url": "https://github.com/UNM-OUS/ous_event_management.git"
         }
     ],
     "autoload": {

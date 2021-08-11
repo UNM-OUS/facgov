@@ -1,8 +1,17 @@
 <?php
+
+/**
+ * Check if .maintenance exists, and if so only show maintenance page
+ */
+if (is_file(__DIR__ . '/../.maintenance')) {
+    include __DIR__ . '/../maintenance.php';
+    exit();
+}
+
 /**
  * Set $SITE_PATH so it's available for setting up the CMS
  */
-$SITE_PATH = realpath(__DIR__.'/..');
+$SITE_PATH = realpath(__DIR__ . '/..');
 
 /**
  * Set any additional paths. The preferred method for setting paths is in
