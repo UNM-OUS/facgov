@@ -1,0 +1,22 @@
+.submission-chunk {
+    .uploaded-files {
+      .filestore-icon {
+        font-size: 1em;
+        padding: 0.25rem;
+      }
+      .filestore-card {
+        padding: 0;
+        background: transparent !important;
+        margin: 0;
+        dl {
+          display:none;
+        }
+      }
+      .filestore-card:first-child:last-child {
+        .filestore-icon {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+  

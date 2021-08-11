@@ -1,0 +1,17 @@
+{% if cms.helper('meetings').upcoming() %}
+    <h3>Upcoming public meetings</h3>
+    {% for meeting in cms.helper('meetings').upcoming() %}
+        {{meeting.infoCard(false,true)|raw}}
+    {% endfor %}
+{% else %}
+    <p><em>No public meetings are scheduled in the next 30 days</em></p>
+{% endif %}
+
+{% if cms.helper('meetings').recent() %}
+    <h3>Recent public meetings</h3>
+    {% for meeting in cms.helper('meetings').recent() %}
+        {{meeting.infoCard(false,true)|raw}}
+    {% endfor %}
+{% else %}
+    <p><em>No recent meetings found</em></p>
+{% endif %}

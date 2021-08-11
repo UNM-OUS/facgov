@@ -1,0 +1,14 @@
+<table>
+<tr>
+    <th>Resolution</th>
+    <th>By</th>
+    <th>Date</th>
+</tr>
+{% for resolution in cms.helper('meetings').resolutions() %}
+<tr>
+    <td>{{resolution.link()|raw}}</td>
+    <td>{{resolution.organization.link()|raw}}</td>
+    <td style="white-space:nowrap;">{{resolution.meeting().meeting.start|date("F j, Y")}}</td>
+</tr>
+{% endfor %}
+</table>

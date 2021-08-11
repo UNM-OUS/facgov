@@ -1,0 +1,125 @@
+types:
+  content:
+    hiatus: ${module.namespace}\Hiatus
+    meeting-files: ${module.namespace}\MeetingFiles
+    meeting: ${module.namespace}\Meeting
+    organization: ${module.namespace}\Organization
+    roster-member: ${module.namespace}\RosterMember
+    roster-rules: ${module.namespace}\RosterRules
+    special-position: ${module.namespace}\SpecialPosition
+
+permissions:
+  url:
+    _json/autocomplete-facgovmember-definitive: ["deny all","allow group editor"]
+    _json/autocomplete-facgovmember: ["deny all","allow group editor"]
+    hiatus/copy: ["deny all"]
+    hiatus/display: ["deny all","allow group admin, editor"]
+    meeting-files/copy: ["deny all"]
+    meeting-files/zip: ["allow all"]
+    meeting/copy: ["deny all"]
+    organization/copy: ["deny all, allow group admin"]
+    organization/delete: ["deny all","allow group admin"]
+    organization/hiatus-management: ["allow group admin, editor"]
+    organization/json: ["allow all"]
+    organization/meetings: ["allow all"]
+    organization/terms-timeline: ["allow group admin, editor"]
+    organization/reports: ["allow group admin, editor"]
+    organization/roster-browser-history: ["allow all"]
+    organization/roster-browser: ["allow all"]
+    organization/roster-export-all: ["allow group admin, editor"]
+    organization/roster-export: ["allow group admin, editor"]
+    organization/roster-membership-history: ["allow group admin, editor"]
+    organization/roster-membership: ["allow group admin, editor"]
+    organization/roster-rules: ["allow group admin, editor"]
+    organization/roster: ["allow all"]
+    organization/signin: ["allow group admin, editor"]
+    organization/vacancies-export: ["allow group admin, editor"]
+    roster-member/copy: ["deny all"]
+    roster-member/display: ["deny all","allow group admin, editor"]
+    roster-rules/copy: ["deny all"]
+    roster-rules/display: ["deny all","allow group admin, editor"]
+    special-position/copy: ["deny all"]
+    special-position/display: ["deny all","allow group admin, editor"]
+    _meetings/*: [deny all, allow group editor]
+  add:
+    # deny adding added types
+    '*/hiatus': ["deny all"]
+    '*/organization': ["deny all","allow group admin"]
+    '*/special-position': ["deny all"]
+    '*/roster-member': ["deny all"]
+    '*/roster-rules': ["deny all"]
+    '*/meeting': ["deny all"]
+    '*/meeting-files': ["deny all"]
+    # types that shouldn't have children
+    roster-member/*: ["deny all"]
+    roster-rules/*: ["deny all"]
+    special-position/*: ["deny all"]
+    meeting-files/*: ["deny all"]
+    # allowed children
+    organization/hiatus: ["allow group admin, editor"]
+    organization/meeting: ["allow group admin, editor"]
+    organization/roster-member: ["allow group admin, editor"]
+    organization/roster-rules: ["allow group admin, editor"]
+    meeting/meeting-files: ["allow group admin, editor"]
+    roster-member/special-position: ["allow group admin, editor"]
+
+actions:
+  common:
+    '_user/signedin':
+      meetings-recent: _meetings/recent
+      meetings-upcoming: _meetings/upcoming
+
+strings:
+  urls:
+    common:
+      _meetings/display: Meetings
+      _meetings/recent: Recent Meetings
+      _meetings/upcoming: Upcoming Meetings
+    proper:
+      organization/hiatus-management: Hiatus management
+      organization/meetings: Meetings
+      organization/reports: reports/admin
+      organization/roster-browser-history: full membership history
+      organization/roster-browser: roster browser
+      organization/roster-export-all: all rosters
+      organization/roster-export: Roster export
+      organization/roster-membership-history: Full membership history
+      organization/roster-membership: Member management
+      organization/roster-rules: Membership rules
+      organization/roster: current membership
+      organization/signin: Signin sheet
+      organization/vacancies-export: Vacancy export
+      organization/terms-timeline: Term timeline
+
+factory_columns:
+  content:
+    meeting__start:
+      type: BIGINT
+      index: BTREE
+    meeting-files__type:
+      type: VARCHAR(50)
+      index: BTREE
+
+helpers:
+  classes:
+    meetings: ${module.namespace}\MeetingHelper
+
+navigation:
+  # Define parentage rules for breadcrumbs
+  parents:
+    # rules for noun/verb combinations with proper nouns
+    proper:
+      roster-member/display: "!parent/roster-membership"
+      roster-rules/display: "!parent/roster-rules"
+      organization/roster-membership-history: "!noun/roster-membership"
+      organization/roster-browser-history: "!noun/roster-browser"
+      organization/roster-export-all: "!noun/roster-export"
+      meeting/display: "!parent/meetings"
+
+defaultnounbytype:
+  meeting:
+    digraph:
+      slugpattern: "[parent]/meetings/[id]"
+  meeting-files:
+    digraph:
+      slugpattern: "[parent]/[id]"

@@ -1,0 +1,50 @@
+.digraph-card {
+    &.meeting,&.meeting-files {
+        position: relative;
+        &.partial {
+            .title,.link {
+                display: none;
+            }
+        }
+        &.unlisted {
+            background:a-adjust($(color_accent),-90);
+        }
+        .unlisted {
+            color:$(color_accent);
+        }
+        .title {
+            font-weight:bold;
+            color:$(color_link);
+        }
+        .link {
+            position:absolute;
+            top:0;
+            right:0;
+            overflow:hidden;
+            width:100%;
+            height:100%;
+            white-space:nowrap;
+            text-indent:200%;
+            border-radius:$(border_radius_accent);
+            &:hover {
+                background:a-adjust($(color_link),-75);
+            }
+        }
+    }
+}
+
+.roster-membership {
+    h1 {
+        font-size: 1em;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-style: normal;
+    }
+    table {
+        font-size: 0.8em;
+        p {
+            margin: 0;
+        }
+    }
+}
