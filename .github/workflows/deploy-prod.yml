@@ -36,13 +36,6 @@ jobs:
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.TARGET }}
           EXCLUDE: '/.maintenance, /.htaccess, /env.yaml, /.git/, /.github/, /digraph/cache/, /web/assets/'
-      - name: Clear cache
-        uses: garygrossgarten/github-action-ssh@release
-        with:
-          command: rm -rf ${{ secrets.TARGET }}/digraph/cache/*
-          host: ${{ secrets.REMOTE_HOST }}
-          username: ${{ secrets.REMOTE_USER }}
-          privateKey: ${{ secrets.SSH_KEY}}
       - name: Leave maintenance mode
         uses: garygrossgarten/github-action-ssh@release
         with:
