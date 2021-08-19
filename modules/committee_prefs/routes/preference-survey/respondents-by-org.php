@@ -23,7 +23,16 @@ if (!$org) {
     return;
 }
 
-// display results
+// display results from cache if possible
+$cacheID = md5($package->noun()['dso.id'] . 'reports' . $org);
+$cache = $cms->cache();
+if ($cache->hasItem($cacheID)) {
+    echo $cache->getItem($cacheID)->get();
+    return;
+}
+
+// otherwise generate results
+ob_start();
 $survey = $package->noun();
 $signups = $survey->allSignups();
 $signups = array_filter($signups, function (Signup $s) use ($org) {
@@ -60,3 +69,10 @@ foreach ($signups as $s) {
     echo "</tr>";
 }
 echo "</table>";
+
+//save output to cache
+$citem = $cache->getItem($cacheID);
+$citem->set(ob_get_contents());
+$citem->expiresAfter(3600*2);
+$cache->save($citem);
+ob_end_flush();
