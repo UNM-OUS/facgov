@@ -44,7 +44,9 @@ class PreferenceSurvey extends SignupWindow
         $name = md5(serialize(['vacancyCount', $this['dso.id'], $org['dso.id']]));
         $cache = $this->cms()->cache();
         if ($cache->hasItem($name)) {
-            return $cache->getItem($name)->get();
+            if ($value = $cache->getItem($name)->get()) {
+                return $value;
+            }
         }
         $roster = $org->roster($this['appointmentstart']);
         $vacancies = [];
