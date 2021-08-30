@@ -24,6 +24,9 @@ $writer->addRow(
 );
 
 foreach ($survey->allSignups() as $signup) {
+    if (!$signup->complete()) {
+        continue;
+    }
     $row = [
         $signup->contactInfo()->name(),
         $signup['contact.tenure'] ? 'Yes' : '',
