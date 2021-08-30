@@ -15,6 +15,9 @@ permissions:
     preference-survey/respondents-by-org:
       - allow group editor
       - allow group senate_president, senate_president-elect, ops_member
+    preference-survey/download-all:
+      - allow group editor
+      - allow group senate_president, senate_president-elect, ops_member
     event-signup/display:
       - allow group senate_president, senate_president-elect, ops_member
   add:
@@ -26,6 +29,7 @@ actions:
       opts: "!noun/opts"
       userlists: '!id/userlists'
       respondents-by-org: '!id/respondents-by-org'
+      download-all: '!id/download-all'
 strings:
   urls:
     proper:
