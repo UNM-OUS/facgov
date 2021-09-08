@@ -1,7 +1,6 @@
 <?php
 
 use Box\Spout\Writer\Common\Creator\WriterEntityFactory;
-use Digraph\CMS;
 
 $package->cache_noStore();
 

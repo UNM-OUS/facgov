@@ -6,8 +6,6 @@ package:
     fields:
       site_name: Faculty Governance
 
-secret: 2b282026-9c67-5d05-85f2-8bdf4ef530e9
-
 # Specify a time zone if you want to override your server's default
 timezone: America/Denver
 
