@@ -174,16 +174,16 @@
         },
         {
             "name": "byjoby/flatrr",
-            "version": "v1.3.5",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jobyone/flatrr.git",
-                "reference": "188dffe8d5bd7399545550b5e48ea3ab65a5cf36"
+                "reference": "61d24eb3e8ed30fbe8156f51c4d08d248903f387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jobyone/flatrr/zipball/188dffe8d5bd7399545550b5e48ea3ab65a5cf36",
-                "reference": "188dffe8d5bd7399545550b5e48ea3ab65a5cf36",
+                "url": "https://api.github.com/repos/jobyone/flatrr/zipball/61d24eb3e8ed30fbe8156f51c4d08d248903f387",
+                "reference": "61d24eb3e8ed30fbe8156f51c4d08d248903f387",
                 "shasum": ""
             },
             "require": {
@@ -212,22 +212,22 @@
             "description": "A library for working with multi-dimensional arrays through flattened keys",
             "support": {
                 "issues": "https://github.com/jobyone/flatrr/issues",
-                "source": "https://github.com/jobyone/flatrr/tree/v1.3.5"
+                "source": "https://github.com/jobyone/flatrr/tree/v1.4.0"
             },
-            "time": "2021-09-08T16:37:13+00:00"
+            "time": "2021-09-13T16:52:13+00:00"
         },
         {
             "name": "byjoby/formward",
-            "version": "v0.3.4",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jobyone/formward.git",
-                "reference": "f87023675a6e8042d928bffbb1f683461ddf459d"
+                "reference": "cc44679f8b474a2f8a7479c6b378f0d5f89ae941"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jobyone/formward/zipball/f87023675a6e8042d928bffbb1f683461ddf459d",
-                "reference": "f87023675a6e8042d928bffbb1f683461ddf459d",
+                "url": "https://api.github.com/repos/jobyone/formward/zipball/cc44679f8b474a2f8a7479c6b378f0d5f89ae941",
+                "reference": "cc44679f8b474a2f8a7479c6b378f0d5f89ae941",
                 "shasum": ""
             },
             "require": {
@@ -237,7 +237,7 @@
                 "php": ">=7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.3",
+                "phpunit/phpunit": "^9.5",
                 "stevegrunwell/phpunit-markup-assertions": "^1.2",
                 "symfony/yaml": "^3.4"
             },
@@ -263,9 +263,9 @@
             "description": "Forms with sane defaults and simple interfaces to skip the boilerplate code and just put a form on the page",
             "support": {
                 "issues": "https://github.com/jobyone/formward/issues",
-                "source": "https://github.com/jobyone/formward/tree/v0.3.4"
+                "source": "https://github.com/jobyone/formward/tree/v0.4.1"
             },
-            "time": "2021-04-27T14:25:16+00:00"
+            "time": "2021-09-08T17:53:06+00:00"
         },
         {
             "name": "byjoby/html-object-strings",
@@ -458,16 +458,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "ae03311f45dfe194412081526be2e003960df74b"
+                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/ae03311f45dfe194412081526be2e003960df74b",
-                "reference": "ae03311f45dfe194412081526be2e003960df74b",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19",
                 "shasum": ""
             },
             "require": {
@@ -566,6 +566,7 @@
                 "modx",
                 "moodle",
                 "osclass",
+                "pantheon",
                 "phpbb",
                 "piwik",
                 "ppi",
@@ -588,7 +589,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v1.11.0"
+                "source": "https://github.com/composer/installers/tree/v1.12.0"
             },
             "funding": [
                 {
@@ -604,7 +605,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-28T06:42:17+00:00"
+            "time": "2021-09-13T08:19:44+00:00"
         },
         {
             "name": "css-crush/css-crush",
@@ -724,17 +725,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/digraph-cms/digraph-core.git",
-                "reference": "4f664bc2f3a922cf83ba9ada1f99d302c0f54060"
+                "reference": "0c06b1b59bc6123e3d9c4b24c9f3f1c68e646cb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digraph-cms/digraph-core/zipball/4f664bc2f3a922cf83ba9ada1f99d302c0f54060",
-                "reference": "4f664bc2f3a922cf83ba9ada1f99d302c0f54060",
+                "url": "https://api.github.com/repos/digraph-cms/digraph-core/zipball/0c06b1b59bc6123e3d9c4b24c9f3f1c68e646cb9",
+                "reference": "0c06b1b59bc6123e3d9c4b24c9f3f1c68e646cb9",
                 "shasum": ""
             },
             "require": {
                 "byjoby/destructr": "^1.5",
-                "byjoby/formward": "^0.3",
+                "byjoby/formward": "^0.4",
                 "byjoby/html-object-strings": "dev-main",
                 "byjoby/sesh": "^0.1.0",
                 "css-crush/css-crush": "^2.4",
@@ -786,7 +787,7 @@
                 "issues": "https://github.com/digraph-cms/digraph-core/issues",
                 "source": "https://github.com/digraph-cms/digraph-core/tree/v1"
             },
-            "time": "2021-08-18T14:54:17+00:00"
+            "time": "2021-09-13T17:32:00+00:00"
         },
         {
             "name": "digraphcms/digraph-core-themes",
@@ -794,12 +795,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/digraph-cms/digraph-core-themes.git",
-                "reference": "65165c92195e37a703bac7f160dd1403301f6fc5"
+                "reference": "064060d986b8518ea6d736a0d5e5c37f937d421b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digraph-cms/digraph-core-themes/zipball/65165c92195e37a703bac7f160dd1403301f6fc5",
-                "reference": "65165c92195e37a703bac7f160dd1403301f6fc5",
+                "url": "https://api.github.com/repos/digraph-cms/digraph-core-themes/zipball/064060d986b8518ea6d736a0d5e5c37f937d421b",
+                "reference": "064060d986b8518ea6d736a0d5e5c37f937d421b",
                 "shasum": ""
             },
             "default-branch": true,
@@ -819,7 +820,7 @@
                 "issues": "https://github.com/digraph-cms/digraph-core-themes/issues",
                 "source": "https://github.com/digraph-cms/digraph-core-themes/tree/main"
             },
-            "time": "2021-04-19T14:34:58+00:00"
+            "time": "2021-09-13T15:27:39+00:00"
         },
         {
             "name": "digraphcms/digraph-core-types",
@@ -827,12 +828,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/digraph-cms/digraph-core-types.git",
-                "reference": "25cb11e2e9cad70cc8c8d205fa7eab2d85939a30"
+                "reference": "6f89a41da810c46c15246c8e5e294e28a1b8e20c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digraph-cms/digraph-core-types/zipball/25cb11e2e9cad70cc8c8d205fa7eab2d85939a30",
-                "reference": "25cb11e2e9cad70cc8c8d205fa7eab2d85939a30",
+                "url": "https://api.github.com/repos/digraph-cms/digraph-core-types/zipball/6f89a41da810c46c15246c8e5e294e28a1b8e20c",
+                "reference": "6f89a41da810c46c15246c8e5e294e28a1b8e20c",
                 "shasum": ""
             },
             "require": {
@@ -860,7 +861,7 @@
                 "issues": "https://github.com/digraph-cms/digraph-core-types/issues",
                 "source": "https://github.com/digraph-cms/digraph-core-types/tree/main"
             },
-            "time": "2020-10-06T19:06:52+00:00"
+            "time": "2021-09-13T15:28:32+00:00"
         },
         {
             "name": "digraphcms/digraph-file-types",
@@ -902,16 +903,16 @@
         },
         {
             "name": "digraphcms/digraph-project-core",
-            "version": "v1.1.3",
+            "version": "v1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digraph-cms/digraph-project-core.git",
-                "reference": "e120395653e7ecc9109c064b875b57f8781b941c"
+                "reference": "2562573a993e487b2b784c3e377ca691adeecc3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digraph-cms/digraph-project-core/zipball/e120395653e7ecc9109c064b875b57f8781b941c",
-                "reference": "e120395653e7ecc9109c064b875b57f8781b941c",
+                "url": "https://api.github.com/repos/digraph-cms/digraph-project-core/zipball/2562573a993e487b2b784c3e377ca691adeecc3a",
+                "reference": "2562573a993e487b2b784c3e377ca691adeecc3a",
                 "shasum": ""
             },
             "require": {
@@ -939,9 +940,9 @@
             "description": "Package to allow Digraph projects created using digraph-project to have many default config options, file creation scripts, and other boilerplate tracked by Composer.",
             "support": {
                 "issues": "https://github.com/digraph-cms/digraph-project-core/issues",
-                "source": "https://github.com/digraph-cms/digraph-project-core/tree/v1.1.3"
+                "source": "https://github.com/digraph-cms/digraph-project-core/tree/v1.1.7"
             },
-            "time": "2021-04-01T15:29:14+00:00"
+            "time": "2021-09-13T17:08:21+00:00"
         },
         {
             "name": "envms/fluentpdo",
@@ -2714,12 +2715,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UNM-OUS/ous_digraph_module.git",
-                "reference": "02068d278218fb5690db6de5af21f22006386a1d"
+                "reference": "12e9ca04d0a00ed9ca7d4eb4aae7ef56b6050d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UNM-OUS/ous_digraph_module/zipball/02068d278218fb5690db6de5af21f22006386a1d",
-                "reference": "02068d278218fb5690db6de5af21f22006386a1d",
+                "url": "https://api.github.com/repos/UNM-OUS/ous_digraph_module/zipball/12e9ca04d0a00ed9ca7d4eb4aae7ef56b6050d7b",
+                "reference": "12e9ca04d0a00ed9ca7d4eb4aae7ef56b6050d7b",
                 "shasum": ""
             },
             "require": {
@@ -2736,7 +2737,7 @@
                 "source": "https://github.com/UNM-OUS/ous_digraph_module/tree/main",
                 "issues": "https://github.com/UNM-OUS/ous_digraph_module/issues"
             },
-            "time": "2021-08-12T16:21:51+00:00"
+            "time": "2021-09-13T15:30:48+00:00"
         },
         {
             "name": "unmous/ous_event_management",
@@ -2744,12 +2745,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UNM-OUS/ous_event_management.git",
-                "reference": "56ddbe5a1076e143c94851685ecb326e3d4072ca"
+                "reference": "f77e8b8ec444076d782b67b7e49444c83124993b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UNM-OUS/ous_event_management/zipball/56ddbe5a1076e143c94851685ecb326e3d4072ca",
-                "reference": "56ddbe5a1076e143c94851685ecb326e3d4072ca",
+                "url": "https://api.github.com/repos/UNM-OUS/ous_event_management/zipball/f77e8b8ec444076d782b67b7e49444c83124993b",
+                "reference": "f77e8b8ec444076d782b67b7e49444c83124993b",
                 "shasum": ""
             },
             "require": {
@@ -2769,7 +2770,7 @@
                 "source": "https://github.com/UNM-OUS/ous_event_management/tree/main",
                 "issues": "https://github.com/UNM-OUS/ous_event_management/issues"
             },
-            "time": "2021-09-08T14:08:42+00:00"
+            "time": "2021-09-13T15:37:21+00:00"
         }
     ],
     "packages-dev": [],

@@ -1,0 +1,89 @@
+{
+  "types": {
+    "content": {
+      "event-group": false,
+      "event": false,
+      "event-signupwindow": false,
+      "preference-survey": "${module.namespace}\\Forms\\PreferenceSurvey"
+    }
+  },
+  "permissions": {
+    "url": {
+      "_event-management/display": [
+        "deny all"
+      ],
+      "preference-survey/signup": [
+        "allow group user"
+      ],
+      "preference-survey/opts": [
+        "allow group editor"
+      ],
+      "preference-survey/userlists": [
+        "allow group editor"
+      ],
+      "preference-survey/invited-emails": [
+        "allow group editor"
+      ],
+      "preference-survey/respondents-by-org": [
+        "allow group editor",
+        "allow group senate_president, senate_president-elect, ops_member"
+      ],
+      "preference-survey/download-all": [
+        "allow group editor",
+        "allow group senate_president, senate_president-elect, ops_member"
+      ],
+      "event-signup/display": [
+        "allow group senate_president, senate_president-elect, ops_member"
+      ]
+    },
+    "add": {
+      "preference-survey/event-userlist": [
+        "allow group editor"
+      ]
+    }
+  },
+  "actions": {
+    "proper": {
+      "preference-survey": {
+        "opts": "!noun/opts",
+        "userlists": "!id/userlists",
+        "respondents-by-org": "!id/respondents-by-org",
+        "download-all": "!id/download-all"
+      }
+    }
+  },
+  "strings": {
+    "urls": {
+      "proper": {
+        "preference-survey/opts": "set options"
+      }
+    }
+  },
+  "defaultnounbytype": {
+    "preference-survey": {
+      "digraph": {
+        "slugpattern": "[id]"
+      }
+    }
+  },
+  "users": {
+    "groups": {
+      "sources": {
+        "senate": {
+          "class": "Digraph\\Modules\\ous_digraph_module\\Users\\FacgovGroupSource",
+          "args": {
+            "prefix": "senate_",
+            "source": "https://facgov.unm.edu/51385aba29/json"
+          }
+        },
+        "ops": {
+          "class": "Digraph\\Modules\\ous_digraph_module\\Users\\FacgovGroupSource",
+          "args": {
+            "prefix": "ops_",
+            "source": "https://facgov.unm.edu/4125eebd21/json"
+          }
+        }
+      }
+    }
+  }
+}

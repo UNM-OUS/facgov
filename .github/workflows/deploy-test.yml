@@ -36,7 +36,7 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.TARGET }}
-          EXCLUDE: '/.maintenance, /.htaccess, /env.yaml, /.git/, /.github/, /digraph/cache/, /web/assets/'
+          EXCLUDE: '/.maintenance, /.htaccess, /env.json, /env.yaml, /.git/, /.github/, /digraph/cache/, /web/assets/'
       - name: Clear cache
         uses: garygrossgarten/github-action-ssh@release
         with:
