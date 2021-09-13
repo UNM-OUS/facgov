@@ -2,7 +2,7 @@
   "package": {
     "defaults": {
       "response": {
-        "ttl": 28800
+        "ttl": 3600
       },
       "fields": {
         "site_name": "Faculty Governance"
