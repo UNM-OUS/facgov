@@ -43,18 +43,21 @@ require $SITE_PATH.'/digraph/vendor/autoload.php';
 $config = new \Flatrr\Config\Config();
 
 # load project default config
-$config->readFile($SITE_PATH.'/digraph/core/digraph.yaml');
+$config->readFile($SITE_PATH.'/digraph/core/digraph.json');
 
 # set site paths
 $config['paths.site'] = $SITE_PATH;
 $config['paths.web'] = __DIR__;
 
 # load site config, overwriting anything else set
-$config->readFile($SITE_PATH.'/digraph.yaml', null, true);
+$config->readFile($SITE_PATH.'/digraph.json', null, true);
 
 # load environment config, overwriting anything else set
 if (file_exists($SITE_PATH.'/env.yaml')) {
 $config->readFile($SITE_PATH.'/env.yaml', null, true);
+}
+if (file_exists($SITE_PATH.'/env.json')) {
+$config->readFile($SITE_PATH.'/env.json', null, true);
 }
 
 # override config paths using array from index.php
@@ -75,11 +78,14 @@ $ERRORS[] = 'Cache directory is not writeable. Site may not behave correctly.';
 $cms = \Digraph\Bootstrapper::bootstrap($config);
 
 # load site config, overwriting anything else set, done twice to override modules
-$config->readFile($SITE_PATH.'/digraph.yaml', null, true);
+$config->readFile($SITE_PATH.'/digraph.json', null, true);
 
 # load environment config, overwriting anything else set, done twice to override modules
 if (file_exists($SITE_PATH.'/env.yaml')) {
 $config->readFile($SITE_PATH.'/env.yaml', null, true);
+}
+if (file_exists($SITE_PATH.'/env.json')) {
+$config->readFile($SITE_PATH.'/env.json', null, true);
 }
 
 # set up new request/response package

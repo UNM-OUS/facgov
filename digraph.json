@@ -1,0 +1,73 @@
+{
+  "package": {
+    "defaults": {
+      "response": {
+        "ttl": 28800
+      },
+      "fields": {
+        "site_name": "Faculty Governance"
+      }
+    }
+  },
+  "timezone": "America/Denver",
+  "types": {
+    "content": {
+      "file-bundle": "\\Digraph\\Modules\\FileTypes\\FileBundle",
+      "file": "\\Digraph\\Modules\\FileTypes\\File"
+    }
+  },
+  "users": {
+    "defaultmanager": "netid",
+    "groups": {
+      "sources": {
+        "rac": {
+          "class": "Digraph\\Modules\\ous_digraph_module\\Users\\FacgovGroupSource",
+          "args": {
+            "prefix": "senate_",
+            "source": "https://facgov.unm.edu/51385aba29/json"
+          }
+        }
+      }
+    }
+  },
+  "actions": {
+    "uiforguests": false
+  },
+  "theme": {
+    "variables": {
+      "_override": {
+        "color_accent": "#8a387c"
+      }
+    }
+  },
+  "templates": {
+    "theme": [
+      "unm-v1"
+    ],
+    "paths": {
+      "site": "${paths.site}/templates"
+    },
+    "twigconfig": {
+      "cache": "${paths.cache}/twig"
+    }
+  },
+  "image": {
+    "driver": "gd"
+  },
+  "paths": {
+    "storage": "${paths.site}/digraph/storage",
+    "cache": "${paths.site}/digraph/cache"
+  },
+  "permissions": {
+    "add": {
+      "*/link": [
+        "deny all",
+        "allow group editor"
+      ],
+      "*/link-rule": [
+        "deny all",
+        "allow group admin"
+      ]
+    }
+  }
+}
