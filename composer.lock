@@ -218,16 +218,16 @@
         },
         {
             "name": "byjoby/formward",
-            "version": "v0.4.1",
+            "version": "v0.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jobyone/formward.git",
-                "reference": "cc44679f8b474a2f8a7479c6b378f0d5f89ae941"
+                "reference": "253d9ba37f55d0c4a1c8870b3ef48c645fae9045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jobyone/formward/zipball/cc44679f8b474a2f8a7479c6b378f0d5f89ae941",
-                "reference": "cc44679f8b474a2f8a7479c6b378f0d5f89ae941",
+                "url": "https://api.github.com/repos/jobyone/formward/zipball/253d9ba37f55d0c4a1c8870b3ef48c645fae9045",
+                "reference": "253d9ba37f55d0c4a1c8870b3ef48c645fae9045",
                 "shasum": ""
             },
             "require": {
@@ -263,9 +263,9 @@
             "description": "Forms with sane defaults and simple interfaces to skip the boilerplate code and just put a form on the page",
             "support": {
                 "issues": "https://github.com/jobyone/formward/issues",
-                "source": "https://github.com/jobyone/formward/tree/v0.4.1"
+                "source": "https://github.com/jobyone/formward/tree/v0.4.4"
             },
-            "time": "2021-09-08T17:53:06+00:00"
+            "time": "2021-11-30T17:24:22+00:00"
         },
         {
             "name": "byjoby/html-object-strings",
@@ -725,12 +725,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/digraph-cms/digraph-core.git",
-                "reference": "0c06b1b59bc6123e3d9c4b24c9f3f1c68e646cb9"
+                "reference": "a76a5f99d9ae73d7854f742f0121b0bea5217d39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digraph-cms/digraph-core/zipball/0c06b1b59bc6123e3d9c4b24c9f3f1c68e646cb9",
-                "reference": "0c06b1b59bc6123e3d9c4b24c9f3f1c68e646cb9",
+                "url": "https://api.github.com/repos/digraph-cms/digraph-core/zipball/a76a5f99d9ae73d7854f742f0121b0bea5217d39",
+                "reference": "a76a5f99d9ae73d7854f742f0121b0bea5217d39",
                 "shasum": ""
             },
             "require": {
@@ -787,7 +787,7 @@
                 "issues": "https://github.com/digraph-cms/digraph-core/issues",
                 "source": "https://github.com/digraph-cms/digraph-core/tree/v1"
             },
-            "time": "2021-09-13T17:32:00+00:00"
+            "time": "2021-12-08T18:59:53+00:00"
         },
         {
             "name": "digraphcms/digraph-core-themes",
@@ -828,12 +828,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/digraph-cms/digraph-core-types.git",
-                "reference": "6f89a41da810c46c15246c8e5e294e28a1b8e20c"
+                "reference": "f850e5a07a4cb34921fde211f853a6486065b7a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digraph-cms/digraph-core-types/zipball/6f89a41da810c46c15246c8e5e294e28a1b8e20c",
-                "reference": "6f89a41da810c46c15246c8e5e294e28a1b8e20c",
+                "url": "https://api.github.com/repos/digraph-cms/digraph-core-types/zipball/f850e5a07a4cb34921fde211f853a6486065b7a3",
+                "reference": "f850e5a07a4cb34921fde211f853a6486065b7a3",
                 "shasum": ""
             },
             "require": {
@@ -861,7 +861,7 @@
                 "issues": "https://github.com/digraph-cms/digraph-core-types/issues",
                 "source": "https://github.com/digraph-cms/digraph-core-types/tree/main"
             },
-            "time": "2021-09-13T15:28:32+00:00"
+            "time": "2021-11-30T18:21:05+00:00"
         },
         {
             "name": "digraphcms/digraph-file-types",
@@ -903,16 +903,16 @@
         },
         {
             "name": "digraphcms/digraph-project-core",
-            "version": "v1.1.7",
+            "version": "v1.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digraph-cms/digraph-project-core.git",
-                "reference": "2562573a993e487b2b784c3e377ca691adeecc3a"
+                "reference": "390e0c18d9e5ced32807f0da119992571210e150"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digraph-cms/digraph-project-core/zipball/2562573a993e487b2b784c3e377ca691adeecc3a",
-                "reference": "2562573a993e487b2b784c3e377ca691adeecc3a",
+                "url": "https://api.github.com/repos/digraph-cms/digraph-project-core/zipball/390e0c18d9e5ced32807f0da119992571210e150",
+                "reference": "390e0c18d9e5ced32807f0da119992571210e150",
                 "shasum": ""
             },
             "require": {
@@ -940,9 +940,9 @@
             "description": "Package to allow Digraph projects created using digraph-project to have many default config options, file creation scripts, and other boilerplate tracked by Composer.",
             "support": {
                 "issues": "https://github.com/digraph-cms/digraph-project-core/issues",
-                "source": "https://github.com/digraph-cms/digraph-project-core/tree/v1.1.7"
+                "source": "https://github.com/digraph-cms/digraph-project-core/tree/v1.1.8"
             },
-            "time": "2021-09-13T17:08:21+00:00"
+            "time": "2021-12-08T18:28:44+00:00"
         },
         {
             "name": "envms/fluentpdo",
@@ -1108,12 +1108,12 @@
             "version": "1.2.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/avalanche123/Imagine.git",
+                "url": "https://github.com/php-imagine/Imagine.git",
                 "reference": "d2e18be6e930ca169e4f921ef73ebfc061bf55d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/d2e18be6e930ca169e4f921ef73ebfc061bf55d8",
+                "url": "https://api.github.com/repos/php-imagine/Imagine/zipball/d2e18be6e930ca169e4f921ef73ebfc061bf55d8",
                 "reference": "d2e18be6e930ca169e4f921ef73ebfc061bf55d8",
                 "shasum": ""
             },
@@ -1160,8 +1160,8 @@
                 "image processing"
             ],
             "support": {
-                "issues": "https://github.com/avalanche123/Imagine/issues",
-                "source": "https://github.com/avalanche123/Imagine/tree/1.2.4"
+                "issues": "https://github.com/php-imagine/Imagine/issues",
+                "source": "https://github.com/php-imagine/Imagine/tree/1.2.4"
             },
             "time": "2020-11-03T22:35:03+00:00"
         },
@@ -1561,16 +1561,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.5.1",
+            "version": "v6.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "dd803df5ad7492e1b40637f7ebd258fee5ca7355"
+                "reference": "baeb7cde6b60b1286912690ab0693c7789a31e71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/dd803df5ad7492e1b40637f7ebd258fee5ca7355",
-                "reference": "dd803df5ad7492e1b40637f7ebd258fee5ca7355",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/baeb7cde6b60b1286912690ab0693c7789a31e71",
+                "reference": "baeb7cde6b60b1286912690ab0693c7789a31e71",
                 "shasum": ""
             },
             "require": {
@@ -1627,7 +1627,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.5.1"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.5.3"
             },
             "funding": [
                 {
@@ -1635,7 +1635,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-18T09:14:16+00:00"
+            "time": "2021-11-25T16:34:11+00:00"
         },
         {
             "name": "psr/cache",
@@ -1791,21 +1791,20 @@
         },
         {
             "name": "scrivo/highlight.php",
-            "version": "v9.18.1.7",
+            "version": "v9.18.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrivo/highlight.php.git",
-                "reference": "05996fcc61e97978d76ca7d1ac14b65e7cd26f91"
+                "reference": "6d5049cd2578e19a06adbb6ac77879089be1e3f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/05996fcc61e97978d76ca7d1ac14b65e7cd26f91",
-                "reference": "05996fcc61e97978d76ca7d1ac14b65e7cd26f91",
+                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/6d5049cd2578e19a06adbb6ac77879089be1e3f9",
+                "reference": "6d5049cd2578e19a06adbb6ac77879089be1e3f9",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "ext-mbstring": "*",
                 "php": ">=5.4"
             },
             "require-dev": {
@@ -1813,6 +1812,9 @@
                 "sabberworm/php-css-parser": "^8.3",
                 "symfony/finder": "^2.8|^3.4",
                 "symfony/var-dumper": "^2.8|^3.4"
+            },
+            "suggest": {
+                "ext-mbstring": "Allows highlighting code with unicode characters and supports language with unicode keywords"
             },
             "type": "library",
             "autoload": {
@@ -1863,7 +1865,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-09T00:30:39+00:00"
+            "time": "2021-10-24T00:28:14+00:00"
         },
         {
             "name": "soundasleep/html2text",
@@ -1922,16 +1924,16 @@
         },
         {
             "name": "symfony/cache",
-            "version": "v4.4.30",
+            "version": "v4.4.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "f1c33520a5a439dfd7bd4d5e9cec26c6b79054cc"
+                "reference": "8518b6a06183ef41e5d5b4a7e9a61ec4ab308398"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/f1c33520a5a439dfd7bd4d5e9cec26c6b79054cc",
-                "reference": "f1c33520a5a439dfd7bd4d5e9cec26c6b79054cc",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/8518b6a06183ef41e5d5b4a7e9a61ec4ab308398",
+                "reference": "8518b6a06183ef41e5d5b4a7e9a61ec4ab308398",
                 "shasum": ""
             },
             "require": {
@@ -1945,22 +1947,22 @@
                 "symfony/var-exporter": "^4.2|^5.0"
             },
             "conflict": {
-                "doctrine/dbal": "<2.6",
+                "doctrine/dbal": "<2.7",
                 "symfony/dependency-injection": "<3.4",
                 "symfony/http-kernel": "<4.4|>=5.0",
                 "symfony/var-dumper": "<4.4"
             },
             "provide": {
                 "psr/cache-implementation": "1.0|2.0",
-                "psr/simple-cache-implementation": "1.0",
+                "psr/simple-cache-implementation": "1.0|2.0",
                 "symfony/cache-implementation": "1.0|2.0"
             },
             "require-dev": {
                 "cache/integration-tests": "dev-master",
                 "doctrine/cache": "^1.6|^2.0",
-                "doctrine/dbal": "^2.6|^3.0",
+                "doctrine/dbal": "^2.7|^3.0",
                 "predis/predis": "^1.1",
-                "psr/simple-cache": "^1.0",
+                "psr/simple-cache": "^1.0|^2.0",
                 "symfony/config": "^4.2|^5.0",
                 "symfony/dependency-injection": "^3.4|^4.1|^5.0",
                 "symfony/filesystem": "^4.4|^5.0",
@@ -1997,7 +1999,7 @@
                 "psr6"
             ],
             "support": {
-                "source": "https://github.com/symfony/cache/tree/v4.4.30"
+                "source": "https://github.com/symfony/cache/tree/v4.4.35"
             },
             "funding": [
                 {
@@ -2013,25 +2015,25 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-25T08:17:29+00:00"
+            "time": "2021-11-23T16:29:43+00:00"
         },
         {
             "name": "symfony/cache-contracts",
-            "version": "v1.1.10",
+            "version": "v1.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache-contracts.git",
-                "reference": "8d5489c10ef90aa7413e4921fc3c0520e24cbed7"
+                "reference": "41c956506500bea5502022f6be81da96fb9c7626"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache-contracts/zipball/8d5489c10ef90aa7413e4921fc3c0520e24cbed7",
-                "reference": "8d5489c10ef90aa7413e4921fc3c0520e24cbed7",
+                "url": "https://api.github.com/repos/symfony/cache-contracts/zipball/41c956506500bea5502022f6be81da96fb9c7626",
+                "reference": "41c956506500bea5502022f6be81da96fb9c7626",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1.3",
-                "psr/cache": "^1.0"
+                "psr/cache": "^1.0|^2.0|^3.0"
             },
             "suggest": {
                 "symfony/cache-implementation": ""
@@ -2039,7 +2041,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-main": "1.1-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -2076,7 +2078,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/cache-contracts/tree/v1.1.10"
+                "source": "https://github.com/symfony/cache-contracts/tree/v1.1.11"
             },
             "funding": [
                 {
@@ -2092,7 +2094,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-02T16:08:58+00:00"
+            "time": "2021-07-13T09:33:53+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -2480,16 +2482,16 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v1.1.9",
+            "version": "v1.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "b776d18b303a39f56c63747bcb977ad4b27aca26"
+                "reference": "633df678bec3452e04a7b0337c9bcfe7354124b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/b776d18b303a39f56c63747bcb977ad4b27aca26",
-                "reference": "b776d18b303a39f56c63747bcb977ad4b27aca26",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/633df678bec3452e04a7b0337c9bcfe7354124b3",
+                "reference": "633df678bec3452e04a7b0337c9bcfe7354124b3",
                 "shasum": ""
             },
             "require": {
@@ -2502,7 +2504,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-main": "1.1-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -2539,7 +2541,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v1.1.9"
+                "source": "https://github.com/symfony/service-contracts/tree/v1.1.11"
             },
             "funding": [
                 {
@@ -2555,20 +2557,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-06T13:19:58+00:00"
+            "time": "2021-11-04T13:32:43+00:00"
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v4.4.30",
+            "version": "v4.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "67d0cbfac22a7f21bf6b94dd85de35df7b8a435e"
+                "reference": "75a297f25a87ce9343d39241679578886f3fd458"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/67d0cbfac22a7f21bf6b94dd85de35df7b8a435e",
-                "reference": "67d0cbfac22a7f21bf6b94dd85de35df7b8a435e",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/75a297f25a87ce9343d39241679578886f3fd458",
+                "reference": "75a297f25a87ce9343d39241679578886f3fd458",
                 "shasum": ""
             },
             "require": {
@@ -2612,7 +2614,7 @@
                 "serialize"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/v4.4.30"
+                "source": "https://github.com/symfony/var-exporter/tree/v4.4.34"
             },
             "funding": [
                 {
@@ -2628,7 +2630,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-04T22:42:04+00:00"
+            "time": "2021-11-22T10:04:59+00:00"
         },
         {
             "name": "twig/twig",
@@ -2715,12 +2717,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UNM-OUS/ous_digraph_module.git",
-                "reference": "12e9ca04d0a00ed9ca7d4eb4aae7ef56b6050d7b"
+                "reference": "461ae45c5aa3635a8082de25b4ee5edca3eb1ab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UNM-OUS/ous_digraph_module/zipball/12e9ca04d0a00ed9ca7d4eb4aae7ef56b6050d7b",
-                "reference": "12e9ca04d0a00ed9ca7d4eb4aae7ef56b6050d7b",
+                "url": "https://api.github.com/repos/UNM-OUS/ous_digraph_module/zipball/461ae45c5aa3635a8082de25b4ee5edca3eb1ab8",
+                "reference": "461ae45c5aa3635a8082de25b4ee5edca3eb1ab8",
                 "shasum": ""
             },
             "require": {
@@ -2737,7 +2739,7 @@
                 "source": "https://github.com/UNM-OUS/ous_digraph_module/tree/main",
                 "issues": "https://github.com/UNM-OUS/ous_digraph_module/issues"
             },
-            "time": "2021-09-13T15:30:48+00:00"
+            "time": "2021-12-08T17:41:09+00:00"
         },
         {
             "name": "unmous/ous_event_management",
@@ -2745,12 +2747,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UNM-OUS/ous_event_management.git",
-                "reference": "f77e8b8ec444076d782b67b7e49444c83124993b"
+                "reference": "2939db48726b8d938e591f9063a3e49109f748e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UNM-OUS/ous_event_management/zipball/f77e8b8ec444076d782b67b7e49444c83124993b",
-                "reference": "f77e8b8ec444076d782b67b7e49444c83124993b",
+                "url": "https://api.github.com/repos/UNM-OUS/ous_event_management/zipball/2939db48726b8d938e591f9063a3e49109f748e6",
+                "reference": "2939db48726b8d938e591f9063a3e49109f748e6",
                 "shasum": ""
             },
             "require": {
@@ -2770,7 +2772,7 @@
                 "source": "https://github.com/UNM-OUS/ous_event_management/tree/main",
                 "issues": "https://github.com/UNM-OUS/ous_event_management/issues"
             },
-            "time": "2021-09-13T15:37:21+00:00"
+            "time": "2021-12-07T15:38:43+00:00"
         }
     ],
     "packages-dev": [],

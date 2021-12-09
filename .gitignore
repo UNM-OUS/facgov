@@ -24,4 +24,6 @@ env.json
 
 # END DIGRAPH-MANAGED: GITIGNORE
 
+# assets and static pages
 !/web/assets/.htaccess
+/web/**/*.html
