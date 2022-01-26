@@ -1,4 +1,5 @@
 <?php
+
 namespace Digraph\Modules\committee_prefs\Forms;
 
 use Digraph\Modules\facgov_meetings\Organization;
@@ -108,17 +109,19 @@ class PreferenceSurvey extends SignupWindow
      *
      * @return void
      */
-    public function hook_create()
+    public function hook_update()
     {
-        parent::hook_create();
-        // try to find a recent preference survey, and copy its options
-        $search = $this->cms()->factory()->search();
-        $search->where('${dso.type} = "preference-survey" AND ${dso.id} <> :id');
-        $search->order('${dso.created.date} desc');
-        $search->limit(1);
-        if ($result = $search->execute(['id' => $this['dso.id']])) {
-            $result = reset($result);
-            $this->options($result->options());
+        parent::hook_update();
+        if (!$this->options()) {
+            // try to find a recent preference survey, and copy its options
+            $search = $this->cms()->factory()->search();
+            $search->where('${dso.type} = "preference-survey" AND ${dso.id} <> :id');
+            $search->order('${dso.created.date} desc');
+            $search->limit(1);
+            if ($result = $search->execute(['id' => $this['dso.id']])) {
+                $result = reset($result);
+                $this->options($result->options());
+            }
         }
     }
 
