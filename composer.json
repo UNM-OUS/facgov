@@ -7,7 +7,7 @@
         "digraphcms/digraph-file-types": "dev-main",
         "digraphcms/digraph-project-core": "~1",
         "oomphinc/composer-installers-extender": "^1.1|^2",
-        "unmous/ous_digraph_module": "dev-main",
+        "unmous/ous_digraph_module": "^1",
         "unmous/ous_event_management": "dev-main"
     },
     "repositories": [

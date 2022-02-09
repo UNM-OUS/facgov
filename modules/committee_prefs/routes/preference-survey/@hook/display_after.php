@@ -7,10 +7,10 @@ echo "<p>This survey is used to help fill appointments for terms beginning $date
 echo "<ul>";
 foreach ($survey->options() as $org) {
     echo "<li>";
-    echo "<strong>" . $org->link() . "</strong><br>";
     $url = $org->url('roster-browser', ['date_date_actual' => $survey['appointmentstart']]);
+    echo "<strong><a href='$url'>" . $org->name() . "</a></strong><br>";
     $vacancies = $survey->vacancyCount($org);
-    echo "<a href='$url' class='incidental'>approximately $vacancies faculty vacanc".($vacancies==1?'y':'ies')." expected</a>";
+    echo "<a href='$url' class='incidental'>approximately $vacancies faculty vacanc" . ($vacancies == 1 ? 'y' : 'ies') . " expected</a>";
     echo "</li>";
 }
 echo "</ul>";
